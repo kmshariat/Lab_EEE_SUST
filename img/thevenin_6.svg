@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="120.76807mm"
+   height="44.013252mm"
+   viewBox="0 0 120.76807 44.013252"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   sodipodi:docname="thevenin_6.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.4788159"
+     inkscape:cx="197.79338"
+     inkscape:cy="84.865193"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <symbol
+       id="voltage1"
+       style="stroke-width:1.33333">
+      <g
+         id="voltage1_transform"
+         transform="matrix(0.75,0,0,0.75,165.39989,-11.267365)">
+        <title
+           id="title294">voltage: dc</title>
+        <g
+           id="g196"
+           transform="translate(-36.718278,-24.43917)"
+           style="stroke-width:1.33333">
+          <path
+             d="m -165.76861,173.91783 v 8.44388 m 0,2.09175 v 9.46437"
+             fill="none"
+             id="path2-1"
+             style="stroke:#000000;stroke-width:0.352865;stroke-miterlimit:10"
+             sodipodi:nodetypes="cccc" />
+          <path
+             d="m -163.66861,184.10059 h -4.20001 m 6.30002,-1.38601 h -8.40003"
+             fill="none"
+             id="path4-1"
+             style="stroke:#000000;stroke-width:0.705736;stroke-miterlimit:10" />
+        </g>
+        <g
+           id="g240"
+           style="stroke-width:1.33333"
+           transform="translate(-0.4817118,1.0963414)">
+          <text
+             class="f0"
+             x="-208.77538"
+             y="159.72504"
+             id="text9"
+             style="font-size:4.7037px;font-family:'Latin Modern Roman Slanted';fill:#000000;stroke:none;stroke-width:0.354189;stroke-miterlimit:10"><tspan
+               style="font-size:4.7037px;text-align:end;text-anchor:end;stroke-width:0.354189"
+               id="tspan196">V</tspan></text>
+          <text
+             class="f1"
+             x="-209.25108"
+             y="160.25223"
+             id="text10"
+             style="font-size:3.29259px;font-family:'Latin Modern Roman';fill:#000000;stroke:none;stroke-width:0.354189;stroke-miterlimit:10">1</text>
+        </g>
+        <title
+           id="title553">voltage: dc</title>
+      </g>
+    </symbol>
+    <symbol
+       id="resistor1-2"
+       style="stroke-width:1.33342">
+      <g
+         transform="matrix(0.7498994,0,0,0.75,11.241833,3.6209769)"
+         id="g42-4">
+        <title
+           id="title1-3-9">resistor: small</title>
+        <g
+           fill="none"
+           style="stroke-width:1.33342"
+           id="g2-5">
+          <path
+             d="m 8.3628218,36.299968 v -5.650517 m 0,-8.689538 v -5.659937"
+             style="stroke:#000000;stroke-width:0.352889;stroke-miterlimit:10"
+             id="path1-67-0" />
+          <path
+             d="M 8.4469339,30.798589 6.7907797,29.778456 9.9378256,28.333815 6.787818,26.88972 9.9378256,25.445624 6.787818,24.001525 9.9378256,22.557426 8.2590751,21.799179"
+             style="stroke:#000000;stroke-width:0.705603;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-dasharray:none"
+             id="path2-5-4"
+             sodipodi:nodetypes="cccccccc" />
+        </g>
+        <g
+           style="stroke-width:1.33342"
+           id="g3-8"
+           transform="translate(-0.83410134,0.59609181)">
+          <text
+             class="f0"
+             x="4.3319635"
+             y="27.056585"
+             style="font-size:4.70402px;font-family:'Latin Modern Roman Slanted';text-align:end;text-anchor:end;stroke-width:0.354213;stroke-miterlimit:10"
+             id="text2-3-7">R</text>
+          <text
+             class="f1"
+             x="4.4861627"
+             y="27.583771"
+             style="font-size:3.29281px;font-family:'Latin Modern Roman';stroke-width:0.354213;stroke-miterlimit:10"
+             id="text3-5-1">1</text>
+        </g>
+      </g>
+      <title
+         id="title42-7">resistor: thick</title>
+    </symbol>
+    <symbol
+       id="resistor1"
+       style="stroke-width:1.33342">
+      <g
+         transform="matrix(0.7498994,0,0,0.75,11.241833,3.6209769)"
+         id="g42">
+        <title
+           id="title1-3">resistor: small</title>
+        <g
+           fill="none"
+           style="stroke-width:1.33342"
+           id="g2">
+          <path
+             d="m 8.3628218,36.299968 v -5.650517 m 0,-8.689538 v -5.659937"
+             style="stroke:#000000;stroke-width:0.352889;stroke-miterlimit:10"
+             id="path1-67" />
+          <path
+             d="M 8.4469339,30.798589 6.7907797,29.778456 9.9378256,28.333815 6.787818,26.88972 9.9378256,25.445624 6.787818,24.001525 9.9378256,22.557426 8.2590751,21.799179"
+             style="stroke:#000000;stroke-width:0.352801;stroke-linejoin:bevel;stroke-miterlimit:10"
+             id="path2-5"
+             sodipodi:nodetypes="cccccccc" />
+        </g>
+        <g
+           style="stroke-width:1.33342"
+           id="g3"
+           transform="translate(-0.83410134,0.59609181)">
+          <text
+             class="f0"
+             x="4.3319635"
+             y="27.056585"
+             style="font-size:4.70402px;font-family:'Latin Modern Roman Slanted';text-align:end;text-anchor:end;stroke-width:0.354213;stroke-miterlimit:10"
+             id="text2-3">R</text>
+          <text
+             class="f1"
+             x="4.4861627"
+             y="27.583771"
+             style="font-size:3.29281px;font-family:'Latin Modern Roman';stroke-width:0.354213;stroke-miterlimit:10"
+             id="text3-5">1</text>
+        </g>
+      </g>
+      <title
+         id="title42">resistor</title>
+    </symbol>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-60.831322,-118.08434)">
+    <g
+       id="g2958"
+       transform="matrix(0.75,0,0,0.75,223.43165,26.012796)">
+      <title
+         id="title2940">voltage: dc</title>
+      <g
+         id="g2946"
+         transform="translate(-36.718278,-24.43917)"
+         style="stroke-width:1.33333">
+        <path
+           d="m -165.76861,161.6211 v 20.74061 m 0,2.09175 v 17.64551 h 64.19459"
+           fill="none"
+           id="path2942"
+           style="stroke:#000000;stroke-width:0.352865;stroke-miterlimit:10"
+           sodipodi:nodetypes="cccc" />
+        <path
+           d="m -163.66861,184.10059 h -4.20001 m 6.30002,-1.38601 h -8.40003"
+           fill="none"
+           id="path2944"
+           style="stroke:#000000;stroke-width:0.705736;stroke-miterlimit:10" />
+      </g>
+      <g
+         id="g2954"
+         style="stroke-width:1.33333"
+         transform="translate(-0.4817118,1.0963414)">
+        <text
+           class="f0"
+           x="-208.77538"
+           y="159.72504"
+           id="text2950"
+           style="font-size:4.7037px;font-family:'Latin Modern Roman Slanted';fill:#000000;stroke:none;stroke-width:0.354189;stroke-miterlimit:10"><tspan
+             style="font-size:4.7037px;text-align:end;text-anchor:end;stroke-width:0.354189"
+             id="tspan2948">V</tspan></text>
+      </g>
+      <title
+         id="title2956">voltage: dc</title>
+    </g>
+    <g
+       id="use2624"
+       transform="rotate(90,9.6549712,121.17546)">
+      <g
+         transform="matrix(0.7498994,0,0,0.75,11.241833,3.6209769)"
+         id="g2934">
+        <title
+           id="title2920">resistor: small</title>
+        <g
+           fill="none"
+           style="stroke-width:1.33342"
+           id="g2926">
+          <path
+             d="m 8.3628218,36.299968 v -5.650517 m 0,-8.853544 V 9.9782892"
+             style="stroke:#000000;stroke-width:0.352889;stroke-miterlimit:10"
+             id="path2922"
+             sodipodi:nodetypes="cccc" />
+          <path
+             d="M 8.4469339,30.798589 6.7907797,29.778456 9.9378256,28.333815 6.787818,26.88972 9.9378256,25.445624 6.787818,24.001525 9.9378256,22.557426 8.2590751,21.799179"
+             style="stroke:#000000;stroke-width:0.352801;stroke-linejoin:bevel;stroke-miterlimit:10"
+             id="path2924"
+             sodipodi:nodetypes="cccccccc" />
+        </g>
+        <g
+           style="stroke-width:1.33342"
+           id="g2932"
+           transform="translate(-0.83410134,0.59609181)">
+          <g
+             id="g3117"
+             transform="matrix(0,-0.99986587,1.0001342,0,-21.712251,29.560799)">
+            <text
+               class="f0"
+               x="4.3319635"
+               y="27.056585"
+               style="font-size:4.70402px;font-family:'Latin Modern Roman Slanted';text-align:end;text-anchor:end;stroke-width:0.354213;stroke-miterlimit:10"
+               id="text2928">R</text>
+            <text
+               class="f1"
+               x="4.4861627"
+               y="27.583771"
+               style="font-size:3.29281px;font-family:'Latin Modern Roman';stroke-width:0.354213;stroke-miterlimit:10"
+               id="text2930">3</text>
+          </g>
+        </g>
+      </g>
+      <title
+         id="title2936">resistor</title>
+    </g>
+    <g
+       id="use2681"
+       transform="rotate(90,-2.3499045,109.17059)">
+      <g
+         transform="matrix(0.7498994,0,0,0.75,11.241833,3.6209769)"
+         id="g2914">
+        <title
+           id="title2900">resistor: small</title>
+        <g
+           fill="none"
+           style="stroke-width:1.33342"
+           id="g2906">
+          <path
+             d="M 8.3628218,42.204185 V 30.649451 m 0,-8.689538 V 3.9017531"
+             style="stroke:#000000;stroke-width:0.352889;stroke-miterlimit:10"
+             id="path2902"
+             sodipodi:nodetypes="cccc" />
+          <path
+             d="M 8.4469339,30.798589 6.7907797,29.778456 9.9378256,28.333815 6.787818,26.88972 9.9378256,25.445624 6.787818,24.001525 9.9378256,22.557426 8.2590751,21.799179"
+             style="stroke:#000000;stroke-width:0.352801;stroke-linejoin:bevel;stroke-miterlimit:10"
+             id="path2904"
+             sodipodi:nodetypes="cccccccc" />
+        </g>
+        <g
+           style="stroke-width:1.33342"
+           id="g2912"
+           transform="translate(-0.83410134,0.59609181)">
+          <g
+             id="g3011"
+             transform="matrix(0,-0.99986587,1.0001342,0,-21.738776,29.484434)">
+            <text
+               class="f0"
+               x="4.3319635"
+               y="27.056585"
+               style="font-size:4.70402px;font-family:'Latin Modern Roman Slanted';text-align:end;text-anchor:end;stroke-width:0.354213;stroke-miterlimit:10"
+               id="text2908">R</text>
+            <text
+               class="f1"
+               x="4.4861627"
+               y="27.583771"
+               style="font-size:3.29281px;font-family:'Latin Modern Roman';stroke-width:0.354213;stroke-miterlimit:10"
+               id="text2910">1</text>
+          </g>
+        </g>
+      </g>
+      <title
+         id="title2916">resistor</title>
+    </g>
+    <g
+       id="use2728"
+       transform="translate(102.08301,125.49632)">
+      <g
+         transform="matrix(0.7498994,0,0,0.75,11.241833,3.6209769)"
+         id="g2894">
+        <title
+           id="title2880">resistor: small</title>
+        <g
+           fill="none"
+           style="stroke-width:1.33342"
+           id="g2886">
+          <path
+             d="m 8.3628218,40.349866 v -9.700415 m 0,-8.689538 V -0.10062644"
+             style="stroke:#000000;stroke-width:0.352889;stroke-miterlimit:10"
+             id="path2882"
+             sodipodi:nodetypes="cccc" />
+          <path
+             d="M 8.4469339,30.798589 6.7907797,29.778456 9.9378256,28.333815 6.787818,26.88972 9.9378256,25.445624 6.787818,24.001525 9.9378256,22.557426 8.2590751,21.799179"
+             style="stroke:#000000;stroke-width:0.352801;stroke-linejoin:bevel;stroke-miterlimit:10"
+             id="path2884"
+             sodipodi:nodetypes="cccccccc" />
+        </g>
+        <g
+           style="stroke-width:1.33342"
+           id="g2892"
+           transform="translate(-0.83410134,0.59609181)">
+          <text
+             class="f0"
+             x="4.3319635"
+             y="27.056585"
+             style="font-size:4.70402px;font-family:'Latin Modern Roman Slanted';text-align:end;text-anchor:end;stroke-width:0.354213;stroke-miterlimit:10"
+             id="text2888">R</text>
+          <text
+             class="f1"
+             x="4.4861627"
+             y="27.583771"
+             style="font-size:3.29281px;font-family:'Latin Modern Roman';stroke-width:0.354213;stroke-miterlimit:10"
+             id="text2890">L</text>
+        </g>
+      </g>
+      <title
+         id="title2896">resistor</title>
+    </g>
+    <g
+       id="use2775"
+       transform="translate(77.391371,122.27584)">
+      <g
+         transform="matrix(0.7498994,0,0,0.75,11.241833,3.6209769)"
+         id="g2874">
+        <title
+           id="title2860">resistor: small</title>
+        <g
+           fill="none"
+           style="stroke-width:1.33342"
+           id="g2866">
+          <path
+             d="M 8.3628218,44.47045 V 30.649451 m 0,-8.689538 V 4.3234614"
+             style="stroke:#000000;stroke-width:0.352889;stroke-miterlimit:10"
+             id="path2862"
+             sodipodi:nodetypes="cccc" />
+          <path
+             d="M 8.4469339,30.798589 6.7907797,29.778456 9.9378256,28.333815 6.787818,26.88972 9.9378256,25.445624 6.787818,24.001525 9.9378256,22.557426 8.2590751,21.799179"
+             style="stroke:#000000;stroke-width:0.352801;stroke-linejoin:bevel;stroke-miterlimit:10"
+             id="path2864"
+             sodipodi:nodetypes="cccccccc" />
+        </g>
+        <g
+           style="stroke-width:1.33342"
+           id="g2872"
+           transform="translate(-0.83410134,0.59609181)">
+          <text
+             class="f0"
+             x="4.3319635"
+             y="27.056585"
+             style="font-size:4.70402px;font-family:'Latin Modern Roman Slanted';text-align:end;text-anchor:end;stroke-width:0.354213;stroke-miterlimit:10"
+             id="text2868">R</text>
+          <text
+             class="f1"
+             x="4.4861627"
+             y="27.583771"
+             style="font-size:3.29281px;font-family:'Latin Modern Roman';stroke-width:0.354213;stroke-miterlimit:10"
+             id="text2870">2</text>
+        </g>
+      </g>
+      <title
+         id="title2876">resistor</title>
+    </g>
+    <circle
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.264999;stroke-linejoin:bevel;stroke-miterlimit:8.3;paint-order:markers fill stroke;stop-color:#000000"
+       id="path3274"
+       cx="119.78403"
+       cy="137.27304"
+       r="4.0256023" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;line-height:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-decoration-color:#000000;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.264999;stroke-linejoin:bevel;stroke-miterlimit:8.3;paint-order:markers fill stroke;stop-color:#000000"
+       x="117.18217"
+       y="138.15161"
+       id="text4610"><tspan
+         sodipodi:role="line"
+         id="tspan4608"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265"
+         x="117.18217"
+         y="138.15161"><tspan
+   style="font-style:italic"
+   id="tspan4662">m</tspan>A</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;line-height:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-decoration-color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264999;stroke-linejoin:bevel;stroke-miterlimit:8.3;paint-order:markers fill stroke;stop-color:#000000"
+       x="125.34223"
+       y="138.18326"
+       id="text5444"><tspan
+         sodipodi:role="line"
+         id="tspan5442"
+         style="stroke-width:0.265"
+         x="125.34223"
+         y="138.18326">I<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan5446">L</tspan></tspan></text>
+    <g
+       id="use8623"
+       transform="translate(152.4179,125.55888)">
+      <g
+         transform="matrix(0.7498994,0,0,0.75,11.241833,3.6209769)"
+         id="g8807">
+        <title
+           id="title8793">resistor: small</title>
+        <g
+           fill="none"
+           style="stroke-width:1.33342"
+           id="g8799">
+          <path
+             d="m 8.3628218,39.863403 v -9.213952 m 0,-8.689538 V 0.55539766"
+             style="stroke:#000000;stroke-width:0.352889;stroke-miterlimit:10"
+             id="path8795"
+             sodipodi:nodetypes="cccc" />
+          <path
+             d="M 8.4469339,30.798589 6.7907797,29.778456 9.9378256,28.333815 6.787818,26.88972 9.9378256,25.445624 6.787818,24.001525 9.9378256,22.557426 8.2590751,21.799179"
+             style="stroke:#000000;stroke-width:0.352801;stroke-linejoin:bevel;stroke-miterlimit:10"
+             id="path8797"
+             sodipodi:nodetypes="cccccccc" />
+        </g>
+        <g
+           style="stroke-width:1.33342"
+           id="g8805"
+           transform="translate(-0.83410134,0.59609181)">
+          <text
+             class="f0"
+             x="4.3319635"
+             y="27.056585"
+             style="font-size:4.70402px;font-family:'Latin Modern Roman Slanted';text-align:end;text-anchor:end;stroke-width:0.354213;stroke-miterlimit:10"
+             id="text8801">R</text>
+          <text
+             class="f1"
+             x="4.4861627"
+             y="27.583771"
+             style="font-size:3.29281px;font-family:'Latin Modern Roman';stroke-width:0.354213;stroke-miterlimit:10"
+             id="text8803">L</text>
+        </g>
+      </g>
+      <title
+         id="title8809">resistor</title>
+    </g>
+    <g
+       id="use8670"
+       transform="rotate(90,33.518918,145.47926)">
+      <g
+         transform="matrix(0.7498994,0,0,0.75,11.241833,3.6209769)"
+         id="g8787">
+        <title
+           id="title8773">resistor: small</title>
+        <g
+           fill="none"
+           style="stroke-width:1.33342"
+           id="g8779">
+          <path
+             d="M 8.3628218,47.36292 V 30.381078 m 0,-8.421165 V 7.0830924"
+             style="stroke:#000000;stroke-width:0.352889;stroke-miterlimit:10"
+             id="path8775"
+             sodipodi:nodetypes="cccc" />
+          <path
+             d="M 8.4469339,30.798589 6.7907797,29.778456 9.9378256,28.333815 6.787818,26.88972 9.9378256,25.445624 6.787818,24.001525 9.9378256,22.557426 8.2590751,21.799179"
+             style="stroke:#000000;stroke-width:0.352801;stroke-linejoin:bevel;stroke-miterlimit:10"
+             id="path8777"
+             sodipodi:nodetypes="cccccccc" />
+        </g>
+        <g
+           style="stroke-width:1.33342"
+           id="g8785"
+           transform="translate(-0.83410134,0.59609181)">
+          <g
+             id="g8815"
+             transform="matrix(0,-0.99986587,1.0001342,0,-22.299101,28.924185)">
+            <text
+               class="f0"
+               x="4.3319635"
+               y="27.056585"
+               style="font-size:4.70402px;font-family:'Latin Modern Roman Slanted';text-align:end;text-anchor:end;stroke-width:0.354213;stroke-miterlimit:10"
+               id="text8781">R</text>
+            <text
+               class="f1"
+               x="4.4861627"
+               y="27.583771"
+               style="font-size:3.29281px;font-family:'Latin Modern Roman';stroke-width:0.354213;stroke-miterlimit:10"
+               id="text8783">i</text>
+          </g>
+        </g>
+      </g>
+      <title
+         id="title8789">resistor</title>
+    </g>
+    <g
+       id="use8718"
+       transform="translate(126.42644,37.14772)">
+      <g
+         id="g8769"
+         transform="matrix(0.75,0,0,0.75,165.39989,-11.267365)">
+        <title
+           id="title8751">voltage: dc</title>
+        <g
+           id="g8757"
+           transform="translate(-36.718278,-24.43917)"
+           style="stroke-width:1.33333">
+          <path
+             d="m -165.76861,162.37963 v 19.98208 m 0,2.09175 v 17.45594 h 40.01162"
+             fill="none"
+             id="path8753"
+             style="stroke:#000000;stroke-width:0.352865;stroke-miterlimit:10"
+             sodipodi:nodetypes="cccc" />
+          <path
+             d="m -163.66861,184.10059 h -4.20001 m 6.30002,-1.38601 h -8.40003"
+             fill="none"
+             id="path8755"
+             style="stroke:#000000;stroke-width:0.705736;stroke-miterlimit:10" />
+        </g>
+        <g
+           id="g8765"
+           style="stroke-width:1.33333"
+           transform="translate(-0.4817118,1.0963414)">
+          <text
+             class="f0"
+             x="-208.77538"
+             y="159.72504"
+             id="text8761"
+             style="font-size:4.7037px;font-family:'Latin Modern Roman Slanted';fill:#000000;stroke:none;stroke-width:0.354189;stroke-miterlimit:10"><tspan
+               style="font-size:4.7037px;text-align:end;text-anchor:end;stroke-width:0.354189"
+               id="tspan8759">V</tspan></text>
+          <text
+             class="f1"
+             x="-209.25108"
+             y="160.25223"
+             id="text8763"
+             style="font-size:3.29259px;font-family:'Latin Modern Roman';fill:#000000;stroke:none;stroke-width:0.354189;stroke-miterlimit:10">th</text>
+        </g>
+        <title
+           id="title8767">voltage: dc</title>
+      </g>
+    </g>
+    <circle
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.264999;stroke-linejoin:bevel;stroke-miterlimit:8.3;paint-order:markers fill stroke;stop-color:#000000"
+       id="path3274-6"
+       cx="170.09885"
+       cy="137.2731"
+       r="4.0256023" />
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;line-height:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-decoration-color:#000000;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.264999;stroke-linejoin:bevel;stroke-miterlimit:8.3;paint-order:markers fill stroke;stop-color:#000000"
+       x="167.49699"
+       y="138.15167"
+       id="text4610-1"><tspan
+         sodipodi:role="line"
+         id="tspan4608-5"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.265"
+         x="167.49699"
+         y="138.15167"><tspan
+   style="font-style:italic"
+   id="tspan4662-4">m</tspan>A</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.175px;line-height:normal;font-family:'CMU Serif';-inkscape-font-specification:'CMU Serif';text-decoration-color:#000000;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264999;stroke-linejoin:bevel;stroke-miterlimit:8.3;paint-order:markers fill stroke;stop-color:#000000"
+       x="175.65706"
+       y="138.18332"
+       id="text5444-2"><tspan
+         sodipodi:role="line"
+         id="tspan5442-1"
+         style="stroke-width:0.265"
+         x="175.65706"
+         y="138.18332">I<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan5446-3">L</tspan></tspan></text>
+  </g>
+</svg>
