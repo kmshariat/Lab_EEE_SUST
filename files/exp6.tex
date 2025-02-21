@@ -1,0 +1,78 @@
+\section*{Experiment 6: Verification of Maximum Power Transfer Theorem}  
+\addcontentsline{toc}{section}{Experiment 6: Verification of Maximum Power Transfer Theorem}
+
+\subsection*{Learning Objectives:}
+\begin{itemize}
+    \item Understand the concept of maximum power transfer theorem.
+    \item Verify the theorem through experimentation with a DC circuit.
+\end{itemize}
+
+\subsection*{Equipment:}
+\begin{itemize}
+    \item DC Power Supply (adjustable voltage)
+    \item Breadboard
+    \item Resistors (various values - $100 \Omega$, $220 \Omega$, $330 \Omega$, $1k\Omega$)
+    \item Multimeter
+\end{itemize}
+
+\subsection*{Procedure:}
+
+\begin{enumerate}
+    \item \textbf{Circuit Construction:} Build the following circuit on the breadboard:
+
+    \begin{figure}
+        \centering
+        \includesvg[width=0.65\linewidth]{img/thevenin_6.svg}
+        \label{fig:thevenin_6}
+    \end{figure}
+
+    \begin{itemize}
+        \item The circuit consists of a DC power supply connected as shown in the figure above. The variable load resistor ($R_L$) and fixed resistors ($R_1$, $R_2$ and $R_3$). The internal resistance ($R_i$) and $V_th$ represent Thevenin’s equivalent resistance and voltage supply respectively.
+    \end{itemize}
+
+    \item \textbf{Voltage and Current Measurement:} Set the multimeter to measure voltage (DC Volts) and current (DC Amps).
+
+    \item \textbf{Variable Load:}
+
+    \begin{itemize}
+        \item Adjust the voltage of the DC power supply to a fixed value (e.g., $5V$).
+        \item Measure the voltage across the load resistor ($V_L$) and the current flowing through the load resistor ($I_L$) for various values of the load resistance ($R_L$) by adjusting the variable resistor. Record these values in a table.
+    \end{itemize}
+
+\end{enumerate}
+
+\subsection*{Data and Calculations:}
+\begin{itemize}
+    \item For each set of readings, calculate the power delivered to the load resistor ($P_L$) using the formula $P_L = V_L \times I_L$.
+    \item Plot a graph of the calculated load power ($P_L$) versus the load resistance ($R_L$).
+\end{itemize}
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{m{1cm}|m{2cm}|m{2.5cm}|m{2.5cm}|m{2cm}|m{2cm}}
+        \hline
+        Serial no & Load resistance, $R_L$ & Load Current, $I_L$ [observed] & Load Current, $I_L$ [calculated] & Power, $P$ [observed] & Power, $P$ [calculated] \\
+        \hline
+          &   &   &   &  & \\
+        \hline
+          &   &   &   &  & \\
+        \hline
+
+    \end{tabular}
+    \label{tab:placeholder_label}
+\end{table}
+
+\subsection*{Analysis:}
+\begin{itemize}
+    \item Observe the shape of the power curve.
+    \item Identify the point on the graph where the load power reaches its maximum value.
+    \item At this point, calculate the value of the load resistance ($RL_{max}$).
+\end{itemize}
+
+\subsection*{Theoretical Verification:}
+If the internal resistance of the DC power supply ($R_i$) is known, calculate the value of the load resistance for maximum power transfer using the formula: $RL_{max} = R_i$. The formula of maximum power transfer, $P_{max} = (V_{th})^2 / (4 RL_{max})$
+
+\subsection*{Conclusion:}
+By observing the graph and comparing the measured maximum power transfer resistance ($RL_{max}$) with the calculated value (if $R_i$ is known), verify the principle of the maximum power transfer theorem.
+
+\newpage

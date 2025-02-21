@@ -1,0 +1,97 @@
+\section*{Experiment 5: Verification of Superposition Theorem}  
+\addcontentsline{toc}{section}{Experiment 5: Verification of Superposition Theorem}
+
+\subsection*{Learning Objectives:}
+\begin{itemize}
+    \item To verify Superposition Theorem
+\end{itemize}
+
+\subsection*{Equipment:}
+\begin{itemize}
+    \item Resistors
+    \item Ammeter
+    \item Connecting wires
+    \item DC Power Supply
+\end{itemize}
+
+\subsection*{Statement:}
+Superposition theorem states that in a linear bilateral network containing more than one source, the current flowing through the branch is the algebraic sum of the current flowing through that branch when sources are considered one at a time and replacing other sources by their respective internal resistances.
+
+\subsection*{Procedure:}
+
+\begin{enumerate}
+    \item Give the connections as per the diagram. 
+    \item Set a particular voltage value using RPS1 and RPS2 \& note down the ammeter reading 
+    \item Set the same voltage in circuit using RPS1 alone and short circuiting the RPS2 terminals and note the ammeter reading. 
+    \item Set the same voltage in RPS2 alone as in circuit and short circuit the RPS1 and note down the ammeter reading. 
+    \item Verify the superposition theorem.
+\end{enumerate}
+
+\begin{figure}[H]
+    \centering
+    \includesvg[width=0.65\linewidth]{img/sup_1.svg}
+    \caption{Superposition Theorem should be applied in this circuit}
+    \label{fig:sup}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includesvg[width=0.6\linewidth]{img/sup_2.svg}
+    \caption{When RPS 2 is short circuited}
+    \label{fig:rps_2}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includesvg[width=0.6\linewidth]{img/sup_3.svg}
+    \caption{When RPS 1 is short circuited}
+    \label{fig:rps_1}
+\end{figure}
+
+\subsection*{Observation Table:}
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{m{2cm}|m{1.5cm}|m{1.5cm}|m{5cm}}
+        \multicolumn{4}{c}{\textbf{Theoretical Table}} \\
+        \hline
+        & \multicolumn{2}{c|}{RPS} & \multirow{2}{*}{Ammeter Reading (I) (mA)} \\
+        \cline{2-3}
+        & 1 & 2 & \\
+        \hline
+        Figure 1 & 10V & 10V & \\
+        \hline
+        Figure 2 & 10V & 0V & \\
+        \hline
+        Figure 3 & 0V & 10V & \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{m{2cm}|m{1.5cm}|m{1.5cm}|m{5cm}}
+        
+        \multicolumn{4}{c}{\textbf{Practical Table}} \\
+        \hline
+        & \multicolumn{2}{c|}{RPS} & \multirow{2}{*}{Ammeter Reading (I) (mA)} \\
+        \cline{2-3}
+        & 1 & 2 & \\
+        \hline
+        Figure 1 & 10V & 10V & \\
+        \hline
+        Figure 2 & 10V & 0V & \\
+        \hline
+        Figure 3 & 0V & 10V & \\
+        \hline
+    \end{tabular}
+\end{table}
+
+
+\subsection*{Calculation}
+Measure the current values through the desired node for the three cases and compare it with the obtained practical results
+
+\subsection*{Conclusion:}
+Superposition theorem is verified both theoretically and practically.
+
+\newpage

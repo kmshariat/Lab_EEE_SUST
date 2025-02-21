@@ -1,0 +1,112 @@
+\section*{Experiment 4: Verification of Kirchhoff's Current Law (KCL) and Kirchhoff's Voltage Law (KVL)}  
+\addcontentsline{toc}{section}{Experiment 4: Verification of Kirchhoff's Current Law (KCL) and Kirchhoff's Voltage Law (KVL)}
+
+\subsection*{Learning Objectives:}
+\begin{itemize}
+    \item Understand Kirchhoff's Current Law (KCL) and Kirchhoff's Voltage Law (KVL).
+    \item Verify KCL and KVL through experimentation in a DC circuit.
+\end{itemize}
+
+\subsection*{Equipment:}
+\begin{itemize}
+    \item DC Power Supply
+    \item Resistors (various values - $100 \Omega$, $220 \Omega$, $330\Omega$)
+    \item Multimeter
+    \item Jumper Wires
+\end{itemize}
+
+\subsection*{Procedure:}
+
+\noindent \textbf{Part A: Verification of KCL}
+\begin{enumerate}
+
+    \item \textbf{Circuit Construction:} Build the following circuit on the breadboard:
+    \begin{itemize}
+        \item The circuit consists of a DC power supply connected to a point (node) where three resistors (R1, R2, R3) are connected together.
+    \end{itemize}
+    
+    \item \textbf{Current Measurement:} Set the multimeter to measure current (DC Amps).
+
+    \begin{figure}[H]
+        \centering
+        \includesvg[width=0.6\linewidth]{img/kcl.svg}
+        \caption{Verification of KCL}
+        \label{fig:enter-label}
+    \end{figure}
+    
+    \item \textbf{Measuring Branch Currents:} Measure the current flowing through each branch (individual resistors) leading away from the junction ($I_1$ and $I_2$). Record these values in a table.
+    
+    \item \textbf{Measuring Current at the Junction:} Measure the total current entering the junction ($I_{total}$) by connecting the multimeter in series with the power supply feeding the circuit. Record this value.
+
+    \item \textbf{KCL Verification:} Compare the sum of the branch currents ($I_1 + I_2$) with the total current entering the junction ($I_{total}$). According to KCL, these values should be equal.
+
+    \item Compare the value with the theoretical results.
+\end{enumerate}
+
+\noindent \textbf{Part B: Verification of KVL} 
+
+\begin{enumerate}
+    \item \textbf{Circuit Modification:} Modify the circuit from Part A like the figure.
+
+    \item \textbf{Voltage Measurement: }Set the multimeter to measure voltage (DC Volts).
+
+    \begin{figure}[H]
+        \centering
+        \includesvg[width=0.65\linewidth]{img/kvl.svg}
+        \caption{Verification of KVL}
+        \label{fig:kvl}
+    \end{figure}
+
+    \item \textbf{Measuring Individual Voltages:} Measure the voltage drop across each resistor in the closed loop of the circuit ($V_{R1}$, $V_{R2}$, $V_{R3}$). Record these values in a table.
+
+    \item \textbf{KVL Verification:} Add the voltage drops across all the resistors in the closed loop ($V_{R1} + V_{R3} - V$) and ($V_{R2} - V_{R3}$). According to KVL, the algebraic sum of these voltages should be equal to zero.
+
+    \item Compare the value with the theoretical results.
+
+\end{enumerate}
+
+\subsection*{Observation Table:}
+
+\noindent \textbf{KCL}
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{m{1.5 cm}|m{1.5 cm}|m{1.5 cm}|m{3.5 cm}|m{3.5 cm}}
+        \hline
+        Input Voltage, V & $I_1$ & $I_2$ & Total Current, $I_{total}$ [measured value] & Total Current, $I_{total}$ [theoretical value] \\
+        \hline
+         &   &  &  &  \\
+        \hline
+
+    \end{tabular}
+
+    \label{tab:kcl}
+\end{table}
+
+\noindent \textbf{KVL}
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{m{1.5 cm}|m{1.5 cm}|m{1.25 cm}|m{1.25 cm}|m{1.25 cm}|m{3 cm}|m{3 cm}}
+        \hline
+        Loop no. & Input Voltage, V & $V_{R1}$ & $V_{R2}$ & $V_{R3}$ & Algebraic Sum of Voltages [measured value] & Algebraic Sum of Voltages [theoretical value] \\
+        \hline
+         &   &  &  &  & \\
+        \hline
+
+    \end{tabular}
+    \label{tab:kvl}
+\end{table}
+
+\subsection*{Data and Calculations:}
+
+\begin{itemize}
+    \item In a table, record the measured values of branch currents, total current, and individual voltage drops.
+    \item Calculate the expected total current based on KCL (sum of branch currents).
+    \item Calculate the expected sum of voltage drops around the closed loop based on KVL (sum of individual voltage drops).
+\end{itemize}
+
+\subsection*{Conclusion:}
+By comparing the measured and theoretical values, verify the validity of Kirchhoff's Current Law and Kirchhoff's Voltage Law for DC circuits.
+
+\newpage 

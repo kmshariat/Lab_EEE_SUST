@@ -1,0 +1,120 @@
+\section*{Experiment 9: Design and analysis of AND gate, OR gate and NOT gate using BJT}  
+\addcontentsline{toc}{section}{Experiment 9: Design and analysis of AND gate, OR gate and NOT gate using BJT}
+
+\subsection*{Learning Objectives:}
+
+\begin{itemize}
+    \item Understand the working principle of Bipolar Junction Transistors (BJT)
+    \item Implement Logic gates (AND, OR, NOT) using Bipolar Junction Transistors
+\end{itemize}
+
+\subsection*{Equipment:}
+
+\begin{itemize}
+    \item Breadboard
+    \item NPN transistors (e.g \verb|2N2222|)
+    \item LEDs (different colors for easier identification)
+    \item Resistors 
+    \item Push Buttons 
+    \item Power Supply 
+    \item Jumper Wires
+\end{itemize}
+
+\subsection*{Theory}
+
+The use of transistors for the construction of logic gates depends upon their utility as fast switches. When enough voltage is applied to the base-emitter junction , the transistor is turned on i.e. collector voltage with respect to the emitter may be near zero and can be used to construct gates.
+
+\vspace{0.25cm}
+
+\noindent \textbf{AND gate}
+
+\noindent For the AND logic, the two npn transistors are in series and both transistors must be in the conducting state or turned on to drive the output high.
+
+\begin{figure}[H]
+    \centering
+    \includesvg[width=0.65\linewidth]{img/and_gate.svg}
+    \caption{AND gate implementation using BJT}
+    \label{fig:and_gate}
+\end{figure}
+
+\vspace{0.25cm}
+
+\noindent \textbf{OR gate}
+
+\noindent For the OR logic, the two npn transistors are parallel connected. The output is driven high if either of the transistors is conducting.
+
+\begin{figure}[H]
+    \centering
+    \includesvg[width=0.65\linewidth]{img/or_gate.svg}
+    \caption{OR gate implementation using BJT}
+    \label{fig:or_gate}
+\end{figure}
+
+\vspace{0.25cm}
+
+\noindent \textbf{NOT gate}
+
+\noindent A transistor with a collector resistor can serve as an inverter
+
+\begin{figure}[H]
+    \centering
+    \includesvg[width=0.65\linewidth]{img/not_gate.svg}
+    \caption{NOT gate implementation using BJT}
+    \label{fig:not_gate}
+\end{figure}
+
+\subsection*{Procedure}
+\begin{itemize}
+    \item Built circuits according to fig-\ref{fig:and_gate}, fig-\ref{fig:or_gate}, fig-\ref{fig:not_gate}
+    \item Give 5V DC power supplies ( two power supplies for AND and OR; one for NOR) across the base- emitter terminal of the BJT
+    \item Turn on/off the power supplied according to the truth tables. Consider 5V as binary 1 and 0V as binary 0.
+    \item Measure the output
+\end{itemize}
+
+\subsection*{Tabulation}
+
+\noindent \textbf{AND Gate}
+\begin{table}[h]
+    \centering
+    \begin{tabular}{c|c|c}
+        \hline
+        A & B & Output \\ \hline \hline
+        0   & 0  &   \\ \hline
+        0   & 1   &    \\ \hline
+        1  & 0   &    \\ \hline
+        1  & 1  &   \\ \hline
+    \end{tabular}
+    \label{tab:and_gate}
+\end{table}
+
+\noindent \textbf{OR Gate}
+\begin{table}[h]
+    \centering
+    \begin{tabular}{c|c|c}
+        \hline
+        A & B & Output \\ \hline \hline
+        0   & 0  &   \\ \hline
+        0   & 1   &    \\ \hline
+        1  & 0   &    \\ \hline
+        1  & 1  &   \\ \hline
+    \end{tabular}
+    \label{tab:or_gate}
+\end{table}
+
+\noindent \textbf{NOT Gate}
+\begin{table}[h]
+    \centering
+    \begin{tabular}{c|c}
+        \hline
+        A  & Output \\ \hline \hline
+        0   &      \\ \hline
+        1  &        \\ \hline
+
+    \end{tabular}
+    \label{tab:not_gate}
+\end{table}
+
+\subsection*{Conclusion}
+This experiment demonstrated the practical application of transistors in designing basic TTL logic gates. By constructing and testing AND, OR, and NOT gates, students gained hands-on experience in understanding transistor-based digital logic circuits.
+
+\newpage

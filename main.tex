@@ -1,0 +1,74 @@
+\documentclass[a4paper,12pt]{report}
+
+% Packages
+\usepackage{graphicx}  % For images
+\usepackage{xcolor}  % For colors
+\usepackage[inkscapelatex=false]{svg}
+\usepackage[hidelinks, colorlinks=true, linkcolor=blue, urlcolor=blue, citecolor=blue]{hyperref}
+\usepackage{tocbibind} % Adds bibliography to TOC
+\usepackage{geometry}  % Page layout
+\geometry{margin=1in}  % Adjust margins
+\usepackage{tcolorbox}  % For custom boxed text
+\usepackage{float} 
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{makecell}
+\usepackage{multicol}
+\usepackage{multirow}
+
+% Cover Page
+\begin{document}
+
+\begin{titlepage}
+
+    \begin{center}
+        
+        \begin{figure}[H]  % Force image to stay at this point
+            \centering
+            \vspace{2cm}
+            \includegraphics[width=0.3\textwidth]{img/sust.png} % logo
+            \vspace{1cm}
+        \end{figure}
+        
+        
+        {\fontsize{18pt}{20pt} \textbf{Shahjalal University of Science and Technology}} \\ [0.5cm]
+        
+        {\fontsize{18pt}{20pt} \selectfont Department of Electrical and Electronic Engineering} \\ [0.5cm]
+
+        \begin{tcolorbox}[colback=gray!10, colframe=white, boxrule=0pt, left=0mm, right=0mm, arc=0mm, boxsep=8pt]
+            \centering
+            {\fontsize{16pt}{20pt}\selectfont \textbf{Electrical and Electronic Circuits Lab}}
+        \end{tcolorbox}
+        
+        \vfill
+    \end{center}
+
+    
+\end{titlepage}
+
+% Table of Contents
+\setcounter{tocdepth}{1}  % Only includes chapters and sections
+\renewcommand{\contentsname}{List of Experiments}
+\tableofcontents
+
+
+\newpage
+
+% Import Experiment Files
+\input{files/exp1.tex}
+\input{files/exp2.tex}
+\input{files/exp3.tex}
+\input{files/exp4.tex}
+\input{files/exp5.tex}
+\input{files/exp6.tex}
+\input{files/exp7.tex}
+\input{files/exp8.tex}
+\input{files/exp9.tex}
+\input{files/exp10.tex}
+
+% Bibliography
+\newpage
+\bibliographystyle{IEEE}
+\bibliography{references}
+
+\end{document}
