@@ -1,0 +1,173 @@
+\section*{Experiment 10: Verification of DeMorgan's Theorem using Logic Gate ICs}  
+\addcontentsline{toc}{section}{Experiment 10: Verification of DeMorgan's Theorem using Logic Gate ICs}
+
+\subsection*{Learning Objectives:}
+
+\begin{itemize}
+    \item Understand DeMorgan's Theorem for logic gates.
+    \item Verify DeMorgan's Theorem for NOT, AND, and OR gates using digital logic ICs.
+\end{itemize}
+
+\subsection*{Equipment:}
+
+\begin{itemize}
+    \item Breadboard
+    \item Logic Gate ICs (e.g., \verb|7404| for NOT gates, \verb|7408| for AND gates, \verb|7432| for OR gates)
+    \item Inverter IC (e.g., \verb|7404| for NOT gates)
+    \item LEDs (different colors for easier identification)
+    \item Resistors ($220 \Omega$ or $330\Omega$)
+    \item Push Buttons (2 or more)
+    \item Power Supply (5V)
+    \item Jumper Wires
+\end{itemize}
+
+\subsection*{Procedure:}
+
+\noindent \textbf{Part A: Review of Inverter Operation (NOT Gate)}
+\begin{enumerate}
+    \item \textbf{Circuit Construction:} Build the inverter circuit again on the breadboard:
+
+    \begin{itemize}
+        \item Connect a push button to the input of an inverter IC (e.g., \verb|7404|).
+        \begin{figure}[H]
+            \centering
+            \includesvg[width=0.75\linewidth]{img/not_ic.svg}
+            \caption{NOT Gate IC 7404}
+            \label{fig:not_ic}
+        \end{figure}
+        \item Connect an LED with a current limiting resistor (e.g., $220\Omega$) to the output of the inverter.
+        \item Connect the power supply ($V_{cc}$ and GND) to the IC.
+    \end{itemize}
+    \item \textbf{Truth Table Verification:}
+    
+    \begin{table}[h]
+      \centering
+      \begin{tabular}{c|c}
+        \hline
+        Input 1 & Output LED 1 \\
+        \hline
+        0 & 1 \\
+        1 & 0 \\
+        \hline
+      \end{tabular}
+      \label{tab:not_ic}
+    \end{table}
+
+\begin{itemize}
+    \item Create a table with columns for Input (push button state) and Output (LED state).
+    \item Press and hold the push button (Input = LOW). Observe the LED state (Output). Record the values in the table.
+    \item Release the push button (Input = HIGH). Observe the LED state and record it in the table.
+    \item Verify that the output of the inverter is the logical inverse of the input (Output = NOT(Input)).
+\end{itemize}
+\end{enumerate}
+
+\noindent \textbf{Part B: Verification of DeMorgan's Theorem for AND Gate}
+
+\begin{enumerate}
+    \item \textbf{Circuit Construction:} Build the following circuit on the breadboard:
+
+    \begin{figure}[H]
+        \centering
+        \includesvg[width=0.75\linewidth]{img/and_ic.svg}
+        \caption{AND Gate IC 7408}
+        \label{fig:and_ic}
+    \end{figure}
+
+    \begin{itemize}
+        \item Connect two push buttons (SW1 and SW2) to the inputs of separate AND gate ICs (e.g., 7408).
+        \item Connect two push buttons (SW1 and SW2) to the inputs of separate AND gate ICs (e.g., 7408).
+        \item Connect the inverters (e.g., 7404) to the outputs of the push buttons.
+        \item The inverted outputs of the push buttons are then connected to the inputs of another AND gate.
+        \item Connect the final AND gate's output to another LED with a current limiting resistor.
+        \item Connect the power supply (Vcc and GND) to all the ICs.
+
+    \end{itemize}
+
+    \item \textbf{Truth Table Verification:}
+
+    \renewcommand{\arraystretch}{1.5}
+    \begin{table}[h]
+        \centering
+        \begin{tabular}{c|c|m{2 cm}|m{2 cm}|m{2 cm}|m{2 cm}}
+            \hline
+            \textbf{Input 1, \( A \)} & \textbf{Input 2, \( B \)} & \textbf{Inverted Input 1, \( \overline{A} \)} & \textbf{Inverted Input 2, \( \overline{B} \)} & \textbf{Output LED 1, \( A * B \)} & \textbf{Output LED 2, \( \overline{A} * \overline{B} \)} \\ \hline
+            \hline
+            0 & 0 & 1 & 1 & 0 & 1 \\ \hline
+            0 & 1 & 1 & 0 & 0 & 0 \\ \hline
+            1 & 0 & 0 & 1 & 0 & 1 \\ \hline
+            1 & 1 & 0 & 0 & 1 & 0 \\
+            \hline
+        \end{tabular}
+        \label{tab:truth_table}
+    \end{table}
+
+    \begin{itemize}
+        \item Create a truth table with columns for Input 1 (SW1 state), Input 2 (SW2 state), Output of AND gate (LED1), Inverted Input 1, Inverted Input 2, and Output of final AND gate (LED2).
+        \item Operate the push buttons (SW1 and SW2) independently (pressing one at a time, both pressed, and both released) to explore all possible input combinations.
+        \item Observe the state of each LED (LED1 and LED2) and record the corresponding outputs in the truth table.
+        \item In the table, also record the inverted values of Input 1 and Input 2 based on the push button states.
+    \end{itemize}
+
+    \item \textbf{DeMorgan's Theorem Verification:}
+    \begin{itemize}
+        \item Analyze the truth table. You should observe that the output of the final AND gate (LED2) is only HIGH (logical 1) when both Input 1 and Input 2 are LOW (logical 0).
+        \item This verifies DeMorgan's Theorem for AND gates: (\textbf{NOT A) AND (NOT B) = NOT(A OR B)}
+
+    \end{itemize}
+\end{enumerate}
+
+\noindent \textbf{Part C: Verification of DeMorgan's Theorem for OR Gate}
+
+\begin{enumerate}
+    \item \textbf{Circuit Modification:} Modify the previous circuit on the breadboard:
+    
+    \begin{figure}[H]
+        \centering
+        \includesvg[width=0.75\linewidth]{img/or_ic.svg}
+        \caption{OR Gate IC 7432}
+        \label{fig:or_ic}
+    \end{figure}
+
+     \begin{itemize}
+        \item Replace the final AND gate with an OR gate (e.g., 7432).
+        \item Update the circuit connections accordingly
+    \end{itemize}
+    \item \textbf{Truth Table Verification:}
+
+    \renewcommand{\arraystretch}{1.5}
+    \begin{table}[H]
+        \centering
+        \begin{tabular}{c|c|m{2 cm}|m{2 cm}|m{2 cm}|m{2 cm}}
+            \hline
+            \textbf{Input 1, \( A \)} & \textbf{Input 2, \( B \)} & \textbf{Inverted Input 1, \( \overline{A} \)} & \textbf{Inverted Input 2, \( \overline{B} \)} & \textbf{Output LED 1, \( A + B \)} & \textbf{Output LED 2, \( \overline{A} + \overline{B} \)} \\ \hline
+            \hline
+            0 & 0 & 1 & 1 & 0 & 1 \\ \hline
+            0 & 1 & 1 & 0 & 0 & 0 \\ \hline
+            1 & 0 & 0 & 1 & 0 & 1 \\ \hline
+            1 & 1 & 0 & 0 & 1 & 0 \\
+            \hline
+        \end{tabular}
+        \label{tab:truth_table}
+    \end{table}
+
+    \begin{itemize}
+        \item Create a new truth table similar to Part B, but for the OR gate configuration.
+        \item Operate the push buttons (SW1 and SW2) and record the output states of LED1, LED2, Inverted Input 1, and Inverted Input 2 in the table.
+    \end{itemize}
+
+    \item \textbf{DeMorgan's Theorem Verification:}
+
+    \begin{itemize}
+        \item Analyze the new truth table. You should observe that the output of the OR gate (LED2) is HIGH (logical 1) whenever either Input 1 or Input 2 (or both) are LOW (logical 0).
+        \item This verifies DeMorgan's Theorem for OR gates: \textbf{(NOT A) OR (NOT B) = NOT(A AND B)}
+    \end{itemize}
+
+\end{enumerate}
+
+\subsection*{Conclusion:}
+
+\noindent By analyzing the truth tables for both AND and OR gate configurations, you have experimentally verified DeMorgan's Theorem. This theorem allows you to simplify logic expressions by replacing negated combinations (e.g., NOT(A AND B)) with equivalent expressions using only inverters and non-negated inputs (e.g., (NOT A) OR (NOT B)).
+
+    
+
+\newpage 
