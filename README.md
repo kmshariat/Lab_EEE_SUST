@@ -10,6 +10,8 @@ This repository contains a `.tex` template file for the lab manual of Electrical
 - If you want to add a new experiment, create a new `expn.tex` file inside the `file` folder. This `expn.tex` file will contain a `\section` part (which will be the experiment's name), a `addcontentsline` part (which will add the experiments name to the table of contents), some `\subsections` will contain the headings inside each experiment and at last there will be a `\newpage` command to end this experiment and create a new page for another new experiment.
 - To add the newly created `expn.tex` file to the document, go to `main.tex` file. Add `\input{files/expn.tex}` as a line.
 
-> Most of the circuits used in this documents were drawn using [Inkscape](https://inkscape.org/). A popular circuit symbols for inkscape can be found [here](https://github.com/medwatt/circuitikz_symbols). for a tutorial, visit this [youtube channel](https://youtu.be/uQDgtME-7DQ?si=AupBUdZqWn5uoSxw)
-> The latest version uses [CircuiTikZ Designer](https://circuit2tikz.tf.fau.de/designer/) to generate LaTex code that can be used using the [CircuiTikz](https://www.overleaf.com/learn/latex/CircuiTikz_package) package in overleaf. 
+> Most of the circuits used in this documents were drawn using [Inkscape](https://inkscape.org/). A popular circuit symbols for inkscape can be found [here](https://github.com/medwatt/circuitikz_symbols). for a tutorial, visit this [youtube channel](https://youtu.be/uQDgtME-7DQ?si=AupBUdZqWn5uoSxw) <br>
+
+> The latest version uses [CircuiTikZ Designer](https://circuit2tikz.tf.fau.de/designer/) to generate LaTex code that can be used using the [CircuiTikz](https://www.overleaf.com/learn/latex/CircuiTikz_package) package in overleaf. <br>
+
 > If you want to learn more about editing a tex file, visit the official [overleaf teaching page](https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes) 
